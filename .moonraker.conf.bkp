@@ -5,7 +5,11 @@ max_upload_size = 1024
 klippy_uds_address = ~/printer_data/comms/klippy.sock
 
 [file_manager]
-enable_object_processing = False
+enable_object_processing = True
+
+[spoolman]
+server = https://spoolman.sellerdale.com
+sync_rate = 5
 
 [power PSU]
 type = klipper_device
